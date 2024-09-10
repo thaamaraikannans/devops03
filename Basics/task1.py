@@ -345,9 +345,43 @@ value = {
 "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/2.png",
 "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/3.png",
 "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/4.png"],
-"thumbnail":"https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png"}],
+"thumbnail":"https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png"}
+],
 "total":194,
 "skip":0,
-"limit":30,
-"products": "kannan"
+"limit":30
 }
+
+
+print("The Product is",value["products"][0]["title"])
+print("The Price is",value["products"][0]["price"])
+print("The Review is",value["products"][0]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][1]["title"])
+print("The Price is",value["products"][1]["price"])
+print("The Review is",value["products"][1]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][2]["title"])
+print("The Price is",value["products"][2]["price"])
+print("The Review is",value["products"][2]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][3]["title"])
+print("The Price is",value["products"][3]["price"])
+print("The Review is",value["products"][3]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][4]["title"])
+print("The Price is",value["products"][4]["price"])
+print("The Review is",value["products"][4]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][5]["title"])
+print("The Price is",value["products"][5]["price"])
+print("The Review is",value["products"][5]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][6]["title"])
+print("The Price is",value["products"][6]["price"])
+print("The Review is",value["products"][6]["reviews"][0]["comment"])
+print("\n")
+print("The Product is",value["products"][7]["title"])
+print("The Price is",value["products"][7]["price"])
+print("The Review is",value["products"][7]["reviews"][0]["comment"])
+print("\n")

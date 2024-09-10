@@ -20,4 +20,4 @@ myDict = {
 }
 
 # print(myDict["domain"][0])
-print(myDict["user"][0]["name"])
+print(myDict["user"][1]["name"])
