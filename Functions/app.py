@@ -1,4 +1,4 @@
-# a = 10
+a = 10
 
 # def devOps():
 #     a= 100
@@ -20,5 +20,5 @@ def dummy_func(val1, val2 , operation = "+"):
     print(val1, operation, val2)
 
 
-dummy_func(10, 243, "-")
-dummy_func(val1=10, operation="-", val2=34)
+# dummy_func(10, 243, "-")
+# dummy_func(val1=10, operation="-", val2=34)

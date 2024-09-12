@@ -1,7 +1,21 @@
+import app
+b = app.a
+app.dummy_func(10, 243, "-")
+from error.app import varaibles
+
+
+
+# from app import a, dummy_func
+# b = a
+# dummy_func(10, 243, "-")
+
+
+print(b)
+
 def calc():
     var1 = int(input("Enter number 1:"))
     var2 = int(input("Enter number 2:"))
-    k = 5//0
+    # k = 5//0
     var3 = addition(var1, var2)
     result = addition(100, 220)
     # print("again", result)
@@ -30,4 +44,4 @@ except NameError as err:
 
 print("func")
 
-
+print(varaibles)
