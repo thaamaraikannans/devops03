@@ -21,7 +21,8 @@ from requests import get, post, put
 data = json.dumps({
     "title": 'iPhone Galaxy +1'
 })
-
+print(type(data))
 res = put("https://dummyjson.com/products/1", data=data)
 
-print(res.json())
+data1 = res.json()
+print(type(data1))
